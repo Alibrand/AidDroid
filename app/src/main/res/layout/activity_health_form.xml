@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:background="@drawable/sign_back"
+    tools:context=".HealthFormActivity">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:shadowDy="8"
+        android:shadowRadius="3"
+        android:shadowColor="#4A000000"
+        android:shadowDx="0"
+        android:text="Your Health Form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="left"
+            android:text="Full Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/txt_full_name"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+
+                android:text="Gender :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioGroup
+                android:id="@+id/group_gender"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/rdbtn_male"
+                    android:text="Male"
+
+                    android:checked="true"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/rdbtn_female"
+                    android:text="Female"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_gravity="left"
+            android:text="Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/txt_age"
+            android:inputType="number"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="left"
+            android:text="Blood Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/sp_blood_group"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_gravity="left"
+            android:text="Any chronic diseases?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/txt_diseases"
+            android:background="@drawable/edit_text_back"
+            android:lines="4"
+            android:hint="diabetes,hypertension...etc"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_gravity="left"
+            android:text="Phone Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/txt_phone"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_up"
+            android:layout_marginTop="15dp"
+            android:text="Sign up"
+            android:shadowDy="5"
+            android:shadowDx="1"
+            android:layout_gravity="center"
+            android:shadowColor="#90000000"
+            android:shadowRadius="4"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="15dp"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

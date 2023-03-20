@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/green_back"
+            android:layout_width="193dp"
+            android:layout_height="229dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/green_medical_background" />
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="132dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign_up"
+        android:text="Sign Up"
+        android:shadowDy="5"
+        android:shadowDx="1"
+        android:shadowColor="#90000000"
+        android:shadowRadius="4"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="15dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign_in"
+        android:layout_marginTop="15dp"
+        android:text="Sign In"
+        android:shadowDy="5"
+        android:shadowDx="1"
+        android:shadowColor="#90000000"
+        android:shadowRadius="4"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="15dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_call_emergency"
+        android:layout_marginTop="15dp"
+        android:text="Call Emergency"
+        android:shadowDy="5"
+        android:shadowDx="1"
+        android:shadowColor="#90000000"
+        android:shadowRadius="4"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="15dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

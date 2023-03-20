@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/edit_text_back"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_twotone_account_circle_24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:tint="#566359" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_name"
+                android:text="AccountName"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txt_date"
+                android:text="date"
+                android:textSize="15sp"
+                android:textColor="#A81E1E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#0C591D"
+            android:id="@+id/txt_status"
+            android:text="Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_weight="1"
+            android:id="@+id/btn_call"
+            android:drawableLeft="@drawable/ic_baseline_call_24"
+            android:text="Call"
+            android:drawableTint="#2579BA"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_weight="1"
+            android:id="@+id/btn_location"
+            android:drawableLeft="@drawable/ic_baseline_person_pin_circle_24"
+            android:text="Location"
+            android:drawableTint="#DF2727"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_weight="1"
+            android:id="@+id/btn_view"
+            android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
+            android:text="View"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

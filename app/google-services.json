@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770404121291",
+    "project_id": "aiddroid-8c3df",
+    "storage_bucket": "aiddroid-8c3df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770404121291:android:e409045201cb2ed89f394e",
+        "android_client_info": {
+          "package_name": "com.ksacp2022t3.aiddroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770404121291-h12s5o41dfr6tho283f7khka0bhpvn1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSMzJWYQrNda-K_yuZ7Zu9QGCr4ygWScc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770404121291-h12s5o41dfr6tho283f7khka0bhpvn1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sign_back"
+    android:layout_height="match_parent">
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+
+    tools:context=".SOSActivity">
+
+
+<ImageView
+    android:src="@drawable/emergency_icon"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <TextView
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#F30505"
+        android:text="Emergency Request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_show_location"
+        android:layout_marginTop="15dp"
+        android:text="Location"
+        android:shadowDy="5"
+        android:shadowDx="1"
+        android:shadowColor="#90000000"
+        android:shadowRadius="4"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="15dp"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_baseline_person_pin_circle_24"
+        android:background="@drawable/button_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_call"
+        android:layout_marginTop="15dp"
+        android:text="Call"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:shadowDy="5"
+        android:shadowDx="1"
+        android:shadowColor="#90000000"
+        android:shadowRadius="4"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="15dp"
+        android:textSize="22sp"
+
+        android:textAllCaps="false"
+        android:background="@drawable/button_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Quick Response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_on_the_way"
+        android:layout_marginTop="15dp"
+        android:text="We're on the way"
+        android:shadowDy="5"
+        android:shadowDx="1"
+        android:shadowColor="#90000000"
+        android:shadowRadius="4"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="15dp"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:drawablePadding="15dp"
+        android:background="@drawable/button_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sorry"
+        android:layout_marginTop="15dp"
+        android:text="We're too busy"
+        android:shadowDy="5"
+        android:shadowDx="1"
+        android:shadowColor="#90000000"
+        android:shadowRadius="4"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="15dp"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:drawablePadding="15dp"
+        android:background="@drawable/button_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
+
+
+
